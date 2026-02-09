@@ -1,0 +1,95 @@
+LINUX COMMANDS:-
+
+id - to checkt he identity
+pwd - to check the present or current working directory
+default user - ec2-user
+sudo -i or sudo su -  - to convert the default to root user
+
+hardware commands:-
+
+cat /etc/passwd  - to cechk the userlist
+cat /proc/cpuinfo  or lscpu  - to check the cpu information
+cat /proc/meminfo  or lsmem  - to chck the memory infomation
+cat /etc/os-release          - to give the os(amazon-machine-image) information
+uname -a  - to cehck the kernel version of os(operating system)
+
+basic commands:-
+
+ll    - to check the longlist files
+ls    - to check the short files
+ls -l - to check the lsit of all files
+ls -al - to chek the hidden files
+ls -lsh - to check the size of the files
+ls -ltr - to check the latest files
+mkdir directory - to create a directory or folder
+cd              - to change the directory path
+touch filename  - to create a filename
+tree   - to check the tree workflow of  directory and files
+
+note: drwx-- directory it indicates blue colur 
+      -rw--r- file  it indicates white colour
+
+pacakage mannagemt:-
+
+amazon-linux  -  yum module( yellowdog updater modifier)
+
+* yum module action (install,remove,delete) package name(software)
+
+ubuntu        -  apt module( advance package tool)
+redaht        -  rpm module ( redhat package management)
+centos        -  dnf module 
+suse linux    -  dnf
+
+cp src dest  - copying the foiles
+mv src dest /rename - to modified the files
+
+if we are in ec2user
+
+sudo useradd username
+sudo passwd username
+
+su - useranme  - to convert ec2-user to normal user
+
+chmod u,g,o file name
+chmod u+x,g+x,o+x f1
+chmod u-x,g-x,o-x f1
+
+default user - ec2user
+sudo -i - to conert root user
+
+pwd
+/ - root
+/home /bin /sbin /dev /boot /etc /opt /lib /mnt /media /proc
+
+touch filename        - to create a file
+cat > filename        - to add contet on file
+cat >> filename       - to add more contetn to exsting file
+vi filename           - to add the code by using vi editor
+ insert,esc,shift+wq
+ll        - to check longlist files
+ls        - to check short files
+ls -al    - to check hidden files
+
+note: drwx - directory
+      -rw- - file
+
+monitoring tool:-
+
+top   - to chcek the current process (cpu,memory,laodaverage,uptime)
+ps   - to list the current working process
+htop - to get live processs
+
+useradd - to create a user
+su - username - to convert the root user to normal user
+modified user - chmod 
+file permission - full permisson 777
+                  rwxrwxrwx
+
+iskusage
+
+df -h  -  to check the disk usage
+df -Th - to check the extension file
+du -sh - to check the disk usage
+du -   - check disk usage
+free -m or free -h - to moniotr and check the memeory status
+
